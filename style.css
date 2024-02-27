@@ -168,6 +168,11 @@
     position: absolute;
     right: 0;
     transform-style: preserve-3d;
+    transform-origin: left;
+}
+
+.book-page.page-right.turn {
+    transform: rotateY(-180deg);
 }
 
 .book-page .page-front,
@@ -227,6 +232,10 @@
     font-size: x-small;
 }
 
+.workeduc-box .workeduc-content ul ul {
+    font-size: x-small;
+}
+
 .workeduc-box .workeduc-content h3 {
     font-size: medium;
 }
@@ -236,4 +245,63 @@
     bottom: 1.2rem;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.nextprev-btn {
+    position: absolute;
+    bottom: .9rem;
+    right: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    font-size:  2rem;
+    color: var(--second-text-color);
+    display: inline-flex;
+    justify-content:  center;
+    align-items:  center;
+    transition: .5s;
+}
+
+.nextprev-btn:hover{
+    color:  var(--main-color);
+}
+
+.nextprev-btn.back {
+    left: 1.5rem;
+}
+
+.projects-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.projects-box .projects-content {
+    flex: 1 1 10rem;
+    border: var(--border);
+    border-radius: .5rem;
+    padding: .8rem .5rem 1.1rem;
+    text-align: center;
+}
+
+.projects-box .projects-content:hover {
+    box-shadow: var(--box-shadow);
+}
+
+.projects-content {
+    color: var(--main-color);
+}
+
+.projects-content h3 {
+    font-size: medium;
+}
+
+.projects-content p {
+    font-size: small;
+    margin: .2rem 0 .8rem;
+}
+
+.projects-content btn {
+    width: 8rem;
+    height: 2.5rem;
 }
