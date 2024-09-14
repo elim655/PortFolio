@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edmund's PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class = "wrapper">
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right turn"></div>
+
+        <div class="book">
+            <!-- profile page   -->
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="./images/Edmund.jpg" alt="">
+                    <h1> Edmund Lim </h1>
+                    <h3> Software Engineer  </h3>
+
+                    <div class="social-media">
+                        <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    </div>
+
+                    <p>Hi, I am Edmund Lim, a Software Engineering student with a technical background, including hands-on experience in full-stack development, embedded systems, web development, and digital logic design. Able to develop complex web applications and proficiency in multiple programming languages and tools. Skilled in leading teams, providing educational support, and contributing to technical projects.</p>
+
+                    <div class="btn-box">
+                        <a href="https://drive.google.com/file/d/192nYtnHCIWJ8n3ZlabxFUWCyLzYQLqcs/view?usp=share_link" target="_blank" class="btn">Download Resume</a>
+                        <a href="mailto:elim655@gmail.com" target="_blank" class="btn contact-me">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- page 1 & 2 -->
+            <div class="book-page page-right turn" id="turn-1">
+                <!-- page 1 (work experience) -->
+                <div class="page-front">
+                    <h1 class="title">Work Experience</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar' ></i>Aug 2023 - Present</span>
+                            <h3>Digital Logic Design CPR E 281 - Teaching Assistance</h3>
+                            <ul>
+                                <li>Conduct weekly labs by using FPGA boards and Transistor-Transistor Logic.</li>
+                                <li>Lead recitation sessions that recap lecture material and answer homework questions.</li>
+                                <li>Assist students with homework questions during weekly office hours.</li>
+                                <li>Contribute to exam grading and proctoring duties.</li>
+                            </ul>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar' ></i>Dec 2021 - July 2022</span>
+                            <h3>Web Developer Intern - DNF Cable</h3>
+                            <ul>
+                                <li>Developed and maintained company websites and web applications using HTML, CSS, and JavaScript.</li>
+                                <li>Implemented responsive design techniques to ensure optimal viewing across various devices and platforms.</li>
+                                <li>Collaborated with the IT team to integrate web applications with backend services, improving site functionality and user experience.</li>
+                            </ul>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar' ></i>Aug 2022 - Aug 2023</span>
+                            <h3>Union Drive Marketplace Dining – Supervisor</h3>
+                            <ul>
+                                <li>Manage a team of service staff. </li>
+                                <li>Provide direction, guidance, and support to staff members to ensure they can perform their duties to the required standards.</li>
+                                <li>Provide training and development opportunities to staff to help them improve their skills and knowledge.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <span class="number-page">1</span>
+
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-1">
+                        <i class='bx bx-chevron-right-circle' ></i>
+                    </span>
+                </div>
+
+                <!-- page 2 (education) -->
+                <div class="page-back">
+                    <h1 class="title">Education</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-school' ></i>Aug 2022 - Present</span>
+                            <h3>B.E. majoring in Software Engineering - Iowa State University</h3>
+                            <ul>
+                                <li>GPA: 3.76</li>
+                                <li>Achievements: Top 2% academic ranking, Dean’s List (Fall 22, Spring 23, Fall 23)</li>
+                                <li>Relevant coursework: 
+                                    <ul>
+                                        <li>Operating Systems (C Prog, Linux, Process Synchronization, Memory Management, File Systems)</li>
+                                        <li>Algorithm Design and Analysis (Sorting, Searching, Graph Algo, Dynamic Prog., NP-Completeness)</li>
+                                        <li>Functional Programming (Ocaml, Java, Type Systems, Parsing, Rust, Lambda Calculus)</li>
+                                        <li>User Interface Design (HTML, CSS, JavaScript, React, NodeJS, Express, MongoDB, MySQL)</li>
+                                    </ul></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <span class="number-page">2</span>
+
+                    <!-- prev button -->
+                    <span class="nextprev-btn back" data-page="turn-1">
+                        <i class='bx bx-chevron-left-circle' ></i>
+                    </span>
+                </div>
+
+            </div>
+
+            <!-- page 3 & 4 -->
+            <div class="book-page page-right" id="turn-2">
+                <!-- page 3 (my projects) -->
+                <div class="page-front">
+                    <h1 class="title">My Project</h1>
+
+                    <div class="projects-box">
+                        <div class="projects-content">
+                            <i class='bx bx-code-alt' ></i>
+                            <h3>Truco</h3>
+                            <p>Spring Boot & Andriod Studio - Java & SQL </p>
+                            <a href="https://github.com/elim655/Truco" target="_blank" class="btn">Read More</a>
+                        </div>
+                        <div class="projects-content">
+                            <i class='bx bx-code-alt' ></i>
+                            <h3>5-Stage MIPS Pipeline Processor</h3>
+                            <p>Questa Sim - Verilog</p>
+                            <a href="https://github.com/elim655/5-Stage-MIPS-Pipeline-Processor" target="_blank" class="btn">Read More</a>
+                        </div>
+                        <div class="projects-content">
+                            <i class='bx bx-code-alt' ></i>
+                            <h3>Room Service Robot-iRobot-Roomba</h3>
+                            <p>Embedded System - C & Python </p>
+                            <a href="https://github.com/elim655/RoomServiceRobot-iRobot-Roomba" target="_blank" class="btn">Read More</a>
+                        </div>
+                        <div class="projects-content">
+                            <i class='bx bx-code-alt' ></i>
+                            <h3>FPGA Vending Machine Project</h3>
+                            <p>Quartus Prime - FPGA & Verilog HDL </p>
+                            <a href="https://github.com/elim655/FPGA-Vending-Machine" target="_blank" class="btn">Read More</a>
+                        </div>
+                    </div>
+
+                    <span class="number-page">3</span>
+
+                    <!-- next button -->
+                    <!-- <span class="nextprev-btn" data-page="turn-2">
+                        <i class='bx bx-chevron-right-circle' ></i>
+                    </span> -->
+
+                </div>
+
+                <!-- page 4 (my skills) -->
+                <div class="page-back">
+                    <h1 class="title">My Skills</h1>
+                    <!-- 44.30 -->
+
+
+
+                    <span class="number-page">4</span>
+
+                    <!-- prev button -->
+                    <span class="nextprev-btn back" data-page="turn-2">
+                        <i class='bx bx-chevron-left-circle' ></i>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
