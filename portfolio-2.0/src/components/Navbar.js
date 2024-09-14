@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { FaGamepad } from 'react-icons/fa';
 
 const Nav = styled.nav`
   background: #0d0d0d;
@@ -42,8 +41,10 @@ function Navbar() {
       </NavLogo>
       <NavMenu>
         <NavLink to="/about">About Me</NavLink>
-        <NavLink to="/projects">Projects</NavLink>
         <NavLink to="/experience">Experience</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
+        <NavLink to="/skills">Skills</NavLink>
+        <NavLink to="/leadership">Leadership</NavLink>
         <NavLink to="/contact">Contact</NavLink>
       </NavMenu>
     </Nav>

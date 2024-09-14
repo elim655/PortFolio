@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const ProjectsSection = styled.section`
   padding: 4rem 2rem;
-  background: #000;
+  background: #0d0d0d;
 `;
 
 const ProjectsGrid = styled.div`
@@ -14,7 +14,7 @@ const ProjectsGrid = styled.div`
 `;
 
 const ProjectCard = styled(motion.div)`
-  background: #0d0d0d;
+  background: #000;
   padding: 1.5rem;
   border-radius: 8px;
   color: #fff;
@@ -80,7 +80,7 @@ function Projects() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Read More
+              View on GitHub
             </ProjectLink>
           </ProjectCard>
         ))}
